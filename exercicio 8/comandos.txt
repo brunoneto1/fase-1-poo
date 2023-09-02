@@ -1,0 +1,15 @@
+CREATE SCHEMA `data` ;
+
+
+
+CREATE TABLE `data`.`pessoa` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+
+
+
+SELECT * FROM pessoa;
+
+
+DELETE FROM pessoa
